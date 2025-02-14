@@ -1,0 +1,5 @@
+Get-ChildItem -Path "C:\Node\Newfolder\Niftymutibagger" -Recurse
+
+If your repository is new and empty, use:
+git branch -M main  # Rename branch to main
+git push -u origin main  # Push code to GitHub
