@@ -7,3 +7,17 @@ git push -u origin main
 git branch --show-current
 
 git push -u origin bhasker
+
+Switch to bhasker branch
+
+git checkout bhasker
+2️⃣ Fetch the latest changes from GitHub
+git fetch origin
+3️⃣ Merge main into bhasker
+git merge main
+4️⃣ Resolve any merge conflicts (if any)
+If Git shows a conflict, open the conflicting files, fix them, then run:
+git add .
+git commit -m "Resolved merge conflicts"
+5️⃣ Push updated bhasker to GitHub
+git push origin bhasker
